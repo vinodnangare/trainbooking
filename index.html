@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Train Ticket Booking</title>
+    <link rel="stylesheet" href="./pages/style.css">
+</head>
+<body>
+    <span class="s1">
+    <hr />
+    <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="./pages/login.html">Login</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="./pages/register.html">Register</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <a href="./pages/contact_us.html">Contact us</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+    <hr />
+</span>
+<h1 class="h1">Book Train Ticket</h1>
+<table border="2px" class="t1">
+    <tr>
+        <td>
+<form class="f">
+    
+    <label for="from"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   From</label><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="./img/telegram.png" height="20px"> &nbsp;
+     <input list="from" placeholder="Start Location"   required>
+    <datalist id="from">
+    <option>Ahmednagar</option>
+    <option>Belapur</option>
+    <option>Pune</option>
+    <option>Mumbai</option>
+    <option>Solapur</option>
+    <option>Delhi</option>
+    </datalist> &nbsp;&nbsp;
+    <label for="date">Date</label>
+    <input type="date" id="date" required > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <br /> <br /> <br />
+    <label for="from"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; To</label><br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="./img/to.png" height="20px"> &nbsp;
+    <input list="to" placeholder="Destination">
+    <datalist id="to">
+    <option>Ahmednagar</option>
+    <option>Belapur</option>
+    <option>Pune</option>
+    <option>Mumbai</option>
+    <option>Solapur</option>
+    <option>Delhi</option>
+    </datalist>  &nbsp;&nbsp;&nbsp;
+    <label for="class">Class</label>
+    <input list="class" placeholder="Select Class">
+    <datalist id="class">
+    <option>Ac First class</option>
+    <option>Slepper</option>
+   
+    </datalist>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br /> <br /> 
+</datalist>  &nbsp;
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<label for="Category">Category</label><br>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./img/category.png" height="25px">
+<input list="Category" placeholder="Category" required>
+<datalist id="Category">
+<option>General</option>
+<option>Ladies</option>
+</datalist>
+<br /> <br />
+ <label for="check"> <span class="s2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Flexible with date</span></label>
+  <input type="checkbox" id="check">
+  <br /> <br /> <br /> <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="submit">Search</button>
+  <br /> <br />
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
